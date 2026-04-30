@@ -1,1 +1,136 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMKM Mie Ayam Irham</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Animasi fade-in */
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-blue-50 to-green-50 font-sans">
+
+  <!-- Container -->
+  <div class="max-w-3xl mx-auto p-6 fade-in">
+
+    <!-- Card -->
+    <div class="bg-white shadow-xl rounded-2xl p-6 hover:shadow-2xl transition duration-300">
+
+      <!-- Header -->
+      <h1 class="text-3xl font-bold text-blue-600 mb-2">Form UMKM</h1>
+      <p class="text-gray-500 mb-6">Data usaha mie ayam</p>
+
+      <!-- Form -->
+      <form class="space-y-4">
+
+        <div>
+          <label class="font-semibold text-gray-700">Nama UMKM</label>
+          <input type="text" value="mie ayam"
+            class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-400">
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">Nama Pemilik</label>
+          <input type="text" value="irham"
+            class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-400">
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">Alamat Lengkap</label>
+          <textarea class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-400">jl z JATIPULO</textarea>
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">No. HP / WhatsApp</label>
+          <input type="text" value="088973430630"
+            class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-green-400">
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">Email (Opsional)</label>
+          <input type="email" value="ruslanputrabima0@gmail.com"
+            class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-green-400">
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">Deskripsi Usaha</label>
+          <textarea class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-400">
+menyediakan layanan untuk mencari pelanggan
+          </textarea>
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">Kategori Usaha</label>
+          <textarea class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-400">
+Menggunakan bahan-bahan berkualitas tinggi (seperti ayam kampung, mie tanpa air abu, atau topping organik) dengan harga yang lebih tinggi dan kemasan yang lebih estetis.
+          </textarea>
+        </div>
+
+        <div>
+          <label class="font-semibold text-gray-700">Jam Operasional</label>
+          <input type="text" value="18:30 - 21:00"
+            class="w-full p-3 border rounded-xl focus:ring-2 focus:ring-green-400">
+        </div>
+
+        <!-- Produk -->
+        <div class="border-t pt-4">
+          <h2 class="text-xl font-semibold text-green-600 mb-2">Daftar Produk</h2>
+
+          <p class="text-gray-600 mb-2">
+            mie ayam spesial, mie ayam polos, mie ayam pangsit
+          </p>
+
+          <div class="space-y-3">
+
+            <div>
+              <label class="font-semibold text-gray-700">Nama Produk</label>
+              <input type="text" value="mie ayam"
+                class="w-full p-3 border rounded-xl">
+            </div>
+
+            <div>
+              <label class="font-semibold text-gray-700">Harga</label>
+              <input type="text" value="15.000 - 20.000"
+                class="w-full p-3 border rounded-xl">
+            </div>
+
+            <div>
+              <label class="font-semibold text-gray-700">Deskripsi</label>
+              <textarea class="w-full p-3 border rounded-xl">
+Sajian mi kenyal buatan sendiri yang dipadukan dengan potongan daging ayam berbumbu rempah gurih, sayuran segar, dan kuah kaldu hangat yang kaya rasa. Kelezatan klasik di setiap suapan.
+              </textarea>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Button -->
+        <button type="submit"
+          class="w-full bg-gradient-to-r from-blue-500 to-green-500 text-white p-3 rounded-xl font-semibold hover:scale-105 hover:shadow-lg transition duration-300">
+          Simpan Data
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- Footer -->
+    <p class="text-center text-gray-500 mt-6 text-sm">
+      © 2026 UMKM Mie Ayam Irham
+    </p>
+
+  </div>
+
+</body>
+</html>
